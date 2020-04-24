@@ -1,0 +1,9 @@
+CREATE DATABASE Kampus;
+
+CREATE TABLE Mahasiswa (NO CHAR (1) NOT NULL, 
+Nama_Field VARCHAR (10) NOT NULL, 
+Tipe_Data VARCHAR (10) NOT NULL, 
+Keterangan VARCHAR (20) NOT NULL, 
+created_at DATETIME NOT NULL, 
+updated_at TIMESTAMP);
+
