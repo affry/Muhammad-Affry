@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>AxQuired Apps</title>
+<link href="splashCss.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h1> Tabel Mahasiswa </h1>
+
+  <!-- id hasil -->
+  <div id="hasil_string"></div><br>
+  <div id="hasil_number"></div><br>
+  <div id="hasil_array"></div><br>
+  <div id="hasil_object"></div>
+
+  <script>
+    };
+
+    // menampilkan tipe data pada element Sesuai dg id
+    document.getElementById("hasil_number").innerHTML = NIM;
+    document.getElementById("hasil_string").innerHTML = Nama;
+    document.getElementById("hasil_array").innerHTML = Prodi;
+    document.getElementById("hasil_object").innerHTML = NIM.nama + " tinggal di " + nama.alamat +  NIM.jurusan;
+</script>
+<div align="center">
+<a href="../front.php"><img src="axApps512.png" alt="Axquired Apps" width="512" height="512" /></a>
+<div style="color: #C2E3FE; font-size:32px;"><strong>Data</strong> Mahasiswa ~</div>
+<div><img src="axquiredAppsLoad2.gif" width="118" height="36" alt="axquiredApps Loading" style="margin:30px;"></div>
+<a href="./"><button id="btnAxApps">More Apps</button></a>
+<a href="../front.php"><button id="btnAxApps">Continue &rarr;</button></a>
+<div id="sign">&copy; Muhammad Affry</div>
+</div>
+</body>
+</html>
